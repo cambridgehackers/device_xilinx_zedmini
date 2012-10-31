@@ -17,13 +17,13 @@ $(call inherit-product, build/target/product/mini.mk)
 PRODUCT_PACKAGES += gralloc.zedboard hwcomposer.zedboard
 ## PRODUCT_PACKAGES += busybox
 
-PRODUCT_NAME := zedxylon
+PRODUCT_NAME := zedmini
 TARGET_BOOTLOADER_BOARD_NAME := zedboard
-TARGET_BOARD_PLATFORM := xylonfb
+TARGET_BOARD_PLATFORM := zynq
 
-PRODUCT_DEVICE := zedxylon
+PRODUCT_DEVICE := zedboard
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := Mini for zynq zedboard xylonfb
+PRODUCT_MODEL := Mini for zynq zedboard
 
 # default is nosdcard, S/W button enabled in resource
 DEVICE_PACKAGE_OVERLAYS := device/generic/armv7-a-neon/overlay
